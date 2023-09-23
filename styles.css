@@ -1,0 +1,81 @@
+/* Reset some default styles */
+body, ul, li, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Style the header and navigation bar */
+header {
+    background-color:coral;
+    color:#333;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color:coral;
+    color:#333;
+    padding: 10px 0;
+}
+
+/* Add some responsive styles */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+    
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
